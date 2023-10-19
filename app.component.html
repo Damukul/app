@@ -1,0 +1,56 @@
+<!--<title class="title1">{{title}}</title>
+
+<div class="t1">{{title}}</div>
+<body class="body-main">
+  <p>{{city1}}</p>
+  <div>{{city2}}</div>
+
+
+  <div clas="t2">The following section is the trial of form format:</div>
+  Name:<input type="text" value="John Doe" placeholder="Enter Your Name">
+ 
+<div>
+  Select the favourite car.The available cars in the offer are:<br>
+  Audi:<input type="checkbox" [value]="car1" (checked)="carr($event)">
+  Benz:<input type="checkbox" [value]="car2" (checked)="carr($event)">
+  Toyota:<input type="checkbox" [value]="car3" (checked)="carr($event)">
+  Mercedes:<input type="checkbox" [value]="car4" (checked)="carr($event)">
+
+</div>
+
+<div>
+Student Name: <input type="text" [(ngModel)]="studentname">
+Employee Name: <input type="text" [(ngModel)]="empname">
+</div>
+
+<div>
+  <input type="number" [(ngModel)]="addnumber1">
+  <input type="number" [(ngModel)]="addnumber2">
+  <button (click)="addnumbers()">click me to add numbers</button>
+  result:<input type="number" [value]="this.addresult">
+</div>
+
+  <button (click)="addCircle()">Add Circle</button>
+<div *ngFor="let circle of circles"
+     [class.selected]="circle.isSelected"
+     [style.background-color]="circle.backgroundColor"
+     (click)="toggleSelectCircle(circle)">
+  {{ circle.id }}
+</div>
+
+<div>
+  <input type="text" [value]="test">;
+  <input type="text" [(ngModel)]="test1">;
+</div>
+
+<button (click)="submit($event)">Submit</button>
+<button (click)="cancel($event)">Cancel</button>
+
+
+-->
+<body class="mainapp"><br>
+<button (click)="landing()">landing</button>
+<router-outlet></router-outlet>
+
+
+</body>
